@@ -26,9 +26,9 @@ Install Python 3.5
 
 You will need the following libraries that you can get through pip
 
-'''
+```
 pip install numpy
-'''
+```
 
 ### Running
 

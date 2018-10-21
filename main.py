@@ -2,8 +2,7 @@ import random
 import numpy as np
 import math
 import time
-import replit
-#import os
+import os
 
 SIZE_X = 70
 SIZE_Y = 13
@@ -147,7 +146,7 @@ class gameManager:
 			#
 			for j in range(0, steps):
 				#os.system('cls')
-				replit.clear()
+				os.system('cls')
 				self.locManager.actualAction()
 				self.area.printLoc()
 				time.sleep(.3)
